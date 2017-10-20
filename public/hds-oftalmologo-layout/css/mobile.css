@@ -1,0 +1,49 @@
+body{
+  background-color: white;
+}
+video{
+  width: auto;
+  margin-left: -280px;
+}
+#btn_contact{
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  background-color: white;
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  z-index: 10;
+}
+.border-blue{
+  width: 100%;
+  background-color: white;
+}
+.btn-cita{
+  font-size: 19px!Important;
+}
+.nav{
+  padding-top: 200px;
+}
+.navbar{
+  display: block;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.navbar-nav{
+  margin: auto;
+}
+.navbar-brand h6{
+  font-size: 12px;
+}
+.landing-video{
+  height: 86vh;
+  width: 100%;
+  overflow: hidden;
+}
+.landing-browser {
+  overflow: visible;
+}
+.title h2{
+  font-size: 40px;
+}
