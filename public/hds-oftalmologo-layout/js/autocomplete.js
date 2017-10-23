@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  src = "http://blogs.altavision.com.co/api/post/ambliopia";
+  src = "http://blogs.altavision.com.co/api/post";
   $("#search_txt").autocomplete({
     source: function(request, response) {
         $.ajax({
