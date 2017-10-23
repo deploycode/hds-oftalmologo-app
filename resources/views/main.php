@@ -75,12 +75,10 @@
                 con cada uno de nuestros pacientes. </p>
             </div>
             <div class="col-12 col-sm-12 browser">
-              <form class="form" action="index.html" method="post" id="form-browser">
-                <div class="input-group">
-                  <span class="input-group-addon" id="search_span"><i class="fa fa-search"></i></span>
-                  <input type="text" id="search_txt"class="form-control" placeholder="Buscar" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-              </form>
+              <div class="input-group">
+                <span class="input-group-addon" id="search_span"><i class="fa fa-search"></i></span>
+                <input type="text" id="search_txt" class="form-control" placeholder="Buscar">
+              </div>
             </div>
             <div class="col-12 col-sm-12 abstract">
               <h4>Resultado</h4>

@@ -12,8 +12,8 @@ $(document).ready(function(){
         });
      }, min_length: 3,
      select: function( event, ui ) {
-        $('#search_txt').val(ui.item[0].title);
-        location.href='/'+ui.item.menu+'/'+ui.item.post;
+        $('#search_txt').val(ui.item.title);
+        location.href='/'+ui.item.slug+'/'+ui.item.title;
         return false;
     }
   });
