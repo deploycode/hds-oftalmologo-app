@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  src = "../autoComplete";
-  $("#search").autocomplete({
+  src = "http://blogs.altavision.com.co/api/post/ambliopia";
+  $("#search_txt").autocomplete({
     source: function(request, response) {
         $.ajax({
            url: src,
@@ -12,7 +12,7 @@ $(document).ready(function(){
         });
      }, min_length: 3,
      select: function( event, ui ) {
-        $('#search').val(ui.item.value);
+        $('#search_txt').val(ui.item[0].title);
         location.href='/'+ui.item.menu+'/'+ui.item.post;
         return false;
     }

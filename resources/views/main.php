@@ -10,12 +10,15 @@
     <title>Oftalmologo Dr. Fransisco A. Rangel</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="hds-oftalmologo-layout/plugins/bootstrap-4.0.0-beta-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="hds-oftalmologo-layout/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="hds-oftalmologo-layout/plugins/bootstrap-4.0.0-beta-dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="hds-oftalmologo-layout/plugins/font-awesome-4.7.0/css/font-awesome.min.css" >
 
     <!-- Custom styles for this template -->
-    <link href="hds-oftalmologo-layout/css/main.css" rel="stylesheet">
-    <link href="hds-oftalmologo-layout/css/mobile.css"  rel="stylesheet" media="(max-width: 768px)">
+    <link rel="stylesheet" href="hds-oftalmologo-layout/css/main.css" >
+    <link rel="stylesheet" href="hds-oftalmologo-layout/css/mobile.css"   media="(max-width: 768px)">
+
+    <!-- autocomplete styles -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
 
   <body>
@@ -153,7 +156,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="hds-oftalmologo-layout/plugins/jquery-3.2.1.slim.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="hds-oftalmologo-layout/js/autocomplete.js"></script>
     <script src="hds-oftalmologo-layout/plugins/bootstrap-4.0.0-beta-dist/js/popper.min.js"></script>
     <script src="hds-oftalmologo-layout/plugins/bootstrap-4.0.0-beta-dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
