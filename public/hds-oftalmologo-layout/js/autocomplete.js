@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  src = "http://localhost:8000/api/post";
+  src = "http://blogs.altavision.com.co/api/post";
   $("#search_txt").autocomplete({
     source: function(request, response) {
         $.ajax({
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $('#title').html(ui.item.value);
         $('#description').html(ui.item.content + ' ...');
         // window.open(ui.item.app , '_blank');
-        $('#browser_launch').attr('href' , ui.item.app );    
+        $('#browser_launch').attr('href' , ui.item.app );
     }
   });
 });
