@@ -81,9 +81,9 @@
               </div>
             </div>
             <div class="col-12 col-sm-12 abstract">
-              <h4>Resultado</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <p class="text-center p-boton"><a href="#" class="btn btn-light" id="browser_launch">Ingresa</a></p>
+              <h4 id="title"></h4>
+              <p id="description"></p>
+              <p class="text-center p-boton"><a href="#" class="btn btn-light" id="browser_launch" target="_blank">Ingresa</a></p>
             </div>
           </div>
         </div>
