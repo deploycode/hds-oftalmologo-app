@@ -14,7 +14,6 @@ $(document).ready(function(){
      select: function( event, ui ) {
         $('#title').html(ui.item.value);
         $('#description').html(ui.item.content + ' ...');
-        // window.open(ui.item.app , '_blank');
         $('#browser_launch').attr('href' , ui.item.app );
     }
   });
