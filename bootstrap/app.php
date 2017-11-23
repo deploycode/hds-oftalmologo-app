@@ -23,8 +23,9 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
-// $app->withFacades();
-
+  $app->withFacades();
+  $app->register(\Illuminate\Mail\MailServiceProvider::class);
+  $app->configure('mail');
 // $app->withEloquent();
 
 /*

@@ -14,3 +14,4 @@
 $router->get('/', function () use ($router) {
     return view("main");
 });
+$router->post('contact', 'MailController@sendMail');
