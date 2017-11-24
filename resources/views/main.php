@@ -103,14 +103,14 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <form class="col-12" action="contact" method="POST">
+                <form class="col-12" action="contact" method="POST" role="form">
                   <div class="form-group">
                     <label for="recipient-name" class="form-control-label">Email:</label>
-                    <input type="text" class="form-control" id="recipient-name">
+                    <input type="text" class="form-control" name="email">
                   </div>
                   <div class="form-group">
                     <label for="message-text" class="form-control-label">Mensaje:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+                    <textarea class="form-control" name="message"></textarea>
                   </div>
                   <div class="modal-footer">
                     <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>

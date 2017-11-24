@@ -11,7 +11,7 @@
 |
 */
 
-$router->get('/', function () use ($router) {
+$router->get('/',[ 'as' => 'home', function () use ($router) {
     return view("main");
-});
+}]);
 $router->post('contact', 'MailController@sendMail');

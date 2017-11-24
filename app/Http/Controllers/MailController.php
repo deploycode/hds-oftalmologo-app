@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers;
 use App\Mail\SendValidation;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Http\RedirectResponse;
 
 class MailController extends Controller
 {
-  public function sendMail()
+  public function sendMail(Request $request)
   {
-      // Envío vacío
-      // Mail::to('nicolas.ormeno@krei.cl', 'ASDF')->send(new SendValidation([]));
-
-      // Envío con información a $data
-      $data = ['nombre' => 'Juan', 'apellido' => 'Pérez'];
-      Mail::to('web@altavision.com.co', 'ASDF')->send(new SendValidation($data));
+      $data = ['email'=> $request->input('email') , 'message'=> $request->input('message')];
+      Mail::to('web@hablemosdesalud.com.co', 'ASDF')->send(new SendValidation($data));
+      return redirect()->route('home');
   }
 }
