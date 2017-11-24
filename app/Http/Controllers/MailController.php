@@ -11,7 +11,7 @@ class MailController extends Controller
   public function sendMail(Request $request)
   {
       $data = ['email'=> $request->input('email') , 'message'=> $request->input('message')];
-      Mail::to('web@hablemosdesalud.com.co', 'ASDF')->send(new SendValidation($data));
-      return redirect()->route('home');
+      Mail::to('promocionyprevencion@hablemosdesalud.com.co', 'ASDF')->send(new SendValidation($data));
+      return redirect()->route('success');
   }
 }

@@ -30,7 +30,7 @@ class SendValidation extends Mailable
     public function build()
     {
         return $this->view('mailview')
-            ->from('web@hablemosdesalud.com.co', 'Yantb')
-            ->subject('Invitación para unirte a Yantb');
+            ->from('web@hablemosdesalud.com.co', 'www.oftalmologo.com.co')
+            ->subject('Alguién ha contactado a traves de www.oftalmologo.com.co');
     }
 }

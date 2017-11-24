@@ -14,4 +14,7 @@
 $router->get('/',[ 'as' => 'home', function () use ($router) {
     return view("main");
 }]);
+$router->get('/sucess',[ 'as' => 'success', function () use ($router) {
+    return view("success");
+}]);
 $router->post('contact', 'MailController@sendMail');
